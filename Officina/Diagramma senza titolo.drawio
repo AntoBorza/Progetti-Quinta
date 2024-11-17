@@ -40,10 +40,34 @@
         <mxCell id="GaooVv4H0zD6FNTYnEbQ-14" value="Data inizio&lt;div&gt;Data fine&lt;/div&gt;&lt;div&gt;Ore di manodopera&lt;/div&gt;&lt;div&gt;&lt;u&gt;Numero Progressivo&lt;/u&gt; (PK)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="GaooVv4H0zD6FNTYnEbQ-13">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GaooVv4H0zD6FNTYnEbQ-15" value="RIPARAZIONE" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-7" target="GaooVv4H0zD6FNTYnEbQ-13">
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-15" value="RIPARAZIONE" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=13;startSize=13;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-7" target="GaooVv4H0zD6FNTYnEbQ-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-430" y="-230" as="sourcePoint" />
             <mxPoint x="-270" y="-230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-16" value="Pezzi di ricambio" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-120" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-17" value="&lt;u&gt;Codice&lt;/u&gt; (PK)&lt;div&gt;Nome&lt;/div&gt;&lt;div&gt;Costo unitario&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="GaooVv4H0zD6FNTYnEbQ-16">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-20" value="UTILIZZO&lt;div&gt;- Quantità&lt;/div&gt;" style="endArrow=ERzeroToMany;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endSize=13;startSize=13;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-17" target="GaooVv4H0zD6FNTYnEbQ-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-600" y="-70" as="sourcePoint" />
+            <mxPoint x="-440" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-21" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-190" as="sourcePoint" />
+            <mxPoint x="80" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-22" value="COMMESSA&lt;div&gt;- &lt;u&gt;Numero progressivo&lt;/u&gt; (PK)&lt;/div&gt;" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="-70" as="sourcePoint" />
+            <mxPoint x="80" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
