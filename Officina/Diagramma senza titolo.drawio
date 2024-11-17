@@ -28,7 +28,7 @@
             <mxPoint x="-450" y="-430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GaooVv4H0zD6FNTYnEbQ-12" value="ESEC. LAVORI" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0.994;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endSize=13;startSize=13;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-6" target="GaooVv4H0zD6FNTYnEbQ-9">
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-12" value="ESEC. LAVORI" style="endArrow=ERzeroToMany;html=1;rounded=0;exitX=0.994;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endSize=13;startSize=13;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-6" target="GaooVv4H0zD6FNTYnEbQ-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-160" y="-430" as="sourcePoint" />
             <mxPoint x="-30" y="-430" as="targetPoint" />
@@ -58,13 +58,13 @@
             <mxPoint x="-440" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GaooVv4H0zD6FNTYnEbQ-21" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-9">
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-21" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERzeroToOne;startFill=0;endSize=13;startSize=13;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-190" as="sourcePoint" />
             <mxPoint x="80" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GaooVv4H0zD6FNTYnEbQ-22" value="COMMESSA&lt;div&gt;- &lt;u&gt;Numero progressivo&lt;/u&gt; (PK)&lt;/div&gt;" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-14">
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-22" value="COMMESSA&lt;div&gt;- &lt;u&gt;Numero progressivo&lt;/u&gt; (PK)&lt;/div&gt;" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;startSize=13;endSize=13;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-200" y="-70" as="sourcePoint" />
             <mxPoint x="80" y="-70" as="targetPoint" />
