@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Pagina-1" id="GxrjxY05oJ5o4RrgOPGj">
-    <mxGraphModel dx="2796" dy="2084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,10 +11,40 @@
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="GaooVv4H0zD6FNTYnEbQ-6" value="Automobile" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="-480" width="160" height="120" as="geometry" />
+          <mxGeometry x="-400" y="-480" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GaooVv4H0zD6FNTYnEbQ-7" value="&lt;u&gt;Targa&lt;/u&gt; (PK)&lt;div&gt;Proprietario&lt;/div&gt;&lt;div&gt;Modello&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="GaooVv4H0zD6FNTYnEbQ-6">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-8" value="Officina" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-480" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-9" value="&lt;u&gt;Nome&lt;/u&gt; (PK)&lt;div&gt;Telefono&lt;/div&gt;&lt;div&gt;Indirizzo&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="GaooVv4H0zD6FNTYnEbQ-8">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-10" value="PROPRIETA&#39;" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;sourcePerimeterSpacing=0;startSize=13;endFill=0;endSize=13;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-2" target="GaooVv4H0zD6FNTYnEbQ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-610" y="-430" as="sourcePoint" />
+            <mxPoint x="-450" y="-430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-12" value="ESEC. LAVORI" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0.994;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endSize=13;startSize=13;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-6" target="GaooVv4H0zD6FNTYnEbQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="-430" as="sourcePoint" />
+            <mxPoint x="-30" y="-430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-13" value="Interventi" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-120" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-14" value="Data inizio&lt;div&gt;Data fine&lt;/div&gt;&lt;div&gt;Ore di manodopera&lt;/div&gt;&lt;div&gt;&lt;u&gt;Numero Progressivo&lt;/u&gt; (PK)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="GaooVv4H0zD6FNTYnEbQ-13">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-15" value="RIPARAZIONE" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-7" target="GaooVv4H0zD6FNTYnEbQ-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-430" y="-230" as="sourcePoint" />
+            <mxPoint x="-270" y="-230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
