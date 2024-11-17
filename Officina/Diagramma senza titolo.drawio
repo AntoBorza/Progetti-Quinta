@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Pagina-1" id="GxrjxY05oJ5o4RrgOPGj">
-    <mxGraphModel dx="2022" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1695" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,13 +22,13 @@
         <mxCell id="GaooVv4H0zD6FNTYnEbQ-9" value="&lt;u&gt;Nome&lt;/u&gt; (PK)&lt;div&gt;Telefono&lt;/div&gt;&lt;div&gt;Indirizzo&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="GaooVv4H0zD6FNTYnEbQ-8">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GaooVv4H0zD6FNTYnEbQ-10" value="PROPRIETA&#39;" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;sourcePerimeterSpacing=0;startSize=13;endFill=0;endSize=13;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-2" target="GaooVv4H0zD6FNTYnEbQ-7">
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;PROPRIETA&#39;&lt;/font&gt;" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;sourcePerimeterSpacing=0;startSize=13;endFill=0;endSize=13;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-2" target="GaooVv4H0zD6FNTYnEbQ-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-610" y="-430" as="sourcePoint" />
             <mxPoint x="-450" y="-430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GaooVv4H0zD6FNTYnEbQ-12" value="ESEC. LAVORI" style="endArrow=ERzeroToMany;html=1;rounded=0;exitX=0.994;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endSize=13;startSize=13;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-6" target="GaooVv4H0zD6FNTYnEbQ-9">
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ESEC. LAVORI&lt;/font&gt;" style="endArrow=ERzeroToMany;html=1;rounded=0;exitX=0.994;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endSize=13;startSize=13;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-6" target="GaooVv4H0zD6FNTYnEbQ-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-160" y="-430" as="sourcePoint" />
             <mxPoint x="-30" y="-430" as="targetPoint" />
@@ -40,7 +40,7 @@
         <mxCell id="GaooVv4H0zD6FNTYnEbQ-14" value="Data inizio&lt;div&gt;Data fine&lt;/div&gt;&lt;div&gt;Ore di manodopera&lt;/div&gt;&lt;div&gt;&lt;u&gt;Numero Progressivo&lt;/u&gt; (PK)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="GaooVv4H0zD6FNTYnEbQ-13">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GaooVv4H0zD6FNTYnEbQ-15" value="RIPARAZIONE" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=13;startSize=13;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-7" target="GaooVv4H0zD6FNTYnEbQ-13">
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;RIPARAZIONE&lt;/font&gt;" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=13;startSize=13;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-7" target="GaooVv4H0zD6FNTYnEbQ-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-430" y="-230" as="sourcePoint" />
             <mxPoint x="-270" y="-230" as="targetPoint" />
@@ -52,7 +52,7 @@
         <mxCell id="GaooVv4H0zD6FNTYnEbQ-17" value="&lt;u&gt;Codice&lt;/u&gt; (PK)&lt;div&gt;Nome&lt;/div&gt;&lt;div&gt;Costo unitario&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="GaooVv4H0zD6FNTYnEbQ-16">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GaooVv4H0zD6FNTYnEbQ-20" value="UTILIZZO&lt;div&gt;- Quantità&lt;/div&gt;" style="endArrow=ERzeroToMany;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endSize=13;startSize=13;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-17" target="GaooVv4H0zD6FNTYnEbQ-14">
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;UTILIZZO&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- Quantità&lt;/font&gt;&lt;/div&gt;" style="endArrow=ERzeroToMany;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endSize=13;startSize=13;endFill=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-17" target="GaooVv4H0zD6FNTYnEbQ-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-600" y="-70" as="sourcePoint" />
             <mxPoint x="-440" y="-70" as="targetPoint" />
@@ -64,7 +64,7 @@
             <mxPoint x="80" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GaooVv4H0zD6FNTYnEbQ-22" value="COMMESSA&lt;div&gt;- &lt;u&gt;Numero progressivo&lt;/u&gt; (PK)&lt;/div&gt;" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;startSize=13;endSize=13;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-14">
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;COMMESSA&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- &lt;u&gt;Numero progressivo&lt;/u&gt; (PK)&lt;/font&gt;&lt;/div&gt;" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;startSize=13;endSize=13;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="GaooVv4H0zD6FNTYnEbQ-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-200" y="-70" as="sourcePoint" />
             <mxPoint x="80" y="-70" as="targetPoint" />
@@ -75,6 +75,9 @@
         </mxCell>
         <mxCell id="GaooVv4H0zD6FNTYnEbQ-24" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 42px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;TRADUZIONE IN SCHEMA LOGICO&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-460" y="70" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GaooVv4H0zD6FNTYnEbQ-27" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Cliente (&lt;u style=&quot;&quot;&gt;Codice Fiscale&lt;/u&gt; (PK), Telefono, Nome, Cognome)&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Automobile (&lt;u&gt;Targa&lt;/u&gt; (PK), Proprietario, Modello, &lt;font color=&quot;#ff0000&quot;&gt;Cliente&lt;/font&gt; (FK))&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Officina (&lt;u&gt;Nome&lt;/u&gt; (PK), Telefono, Indirizzo)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Interventi (&lt;u style=&quot;&quot;&gt;Numero Progressivo &lt;/u&gt;(PK), Data inizio, Data fine, Ore di manodopera, &lt;font color=&quot;#ff3333&quot;&gt;Officina&lt;/font&gt; (FK))&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;Pezzi di ricambio (&lt;u&gt;Codice&lt;/u&gt; (PK), Nome, Costo unitario)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;ESEC. LAVORI (&lt;u&gt;ID&lt;/u&gt; (PK), Automobile, Officina&lt;/font&gt;&lt;span style=&quot;font-size: medium; background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium; background-color: initial;&quot;&gt;UTILIZZO (Pezzi di ricambio, Interventi)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: medium; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="190" width="690" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
